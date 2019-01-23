@@ -12,12 +12,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GKVenue : NSObject
-@property (nonatomic, copy)   NSString *identifier;
-@property (nonatomic, copy)   NSString *name;
-@property (nonatomic, strong) GKLocation *location;
+@property (nonatomic, nullable, copy)   NSString *identifier;
+@property (nonatomic, nullable, copy)   NSString *name;
+@property (nonatomic, nullable, strong) GKLocation *location;
 
 + (instancetype)fromJSONDictionary:(NSDictionary *)dict;
-- (NSDictionary *)JSONDictionary;
+
 @end
 
 NS_ASSUME_NONNULL_END

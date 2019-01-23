@@ -8,23 +8,7 @@
 
 #import "GKLocation.h"
 
-@interface GKLocation (JSONConversion)
-
-@end
-
 @implementation GKLocation
-+ (NSDictionary<NSString *, NSString *> *)properties
-{
-	static NSDictionary<NSString *, NSString *> *properties;
-	return properties = properties ? properties : @{
-													@"address": @"address",
-													@"lat": @"lat",
-													@"lng": @"lng",
-													@"distance": @"distance",
-													@"city": @"city",
-													@"country": @"country",
-													};
-}
 
 + (instancetype)fromJSONDictionary:(NSDictionary *)dict
 {
@@ -34,33 +18,14 @@
 - (instancetype)initWithJSONDictionary:(NSDictionary *)dict
 {
 	if (self = [super init]) {
-		[self setValuesForKeysWithDictionary:[self simplificate:dict]];
+		_address = dict[@"address"];
+		_lat = dict[@"lat"];
+		_lng = dict[@"lng"];
+		_city = dict[@"city"];
+		_country = dict[@"country"];
 	}
 	return self;
 }
 
-- (NSDictionary *)JSONDictionary
-{
-	return [self dictionaryWithValuesForKeys:GKLocation.properties.allValues];
-}
 
-//MARK - simplification
-- (NSDictionary *)simplificate:(NSDictionary *)dict
-{
-	
-	NSMutableDictionary *simpleDict = [[NSMutableDictionary alloc] init];
-	if (dict[@"address"] != nil) {
-		[simpleDict setValue:dict[@"address"] forKey:@"address"];
-	}
-	[simpleDict setValue:dict[@"lat"] forKey:@"lat"];
-	[simpleDict setValue:dict[@"lng"] forKey:@"lng"];
-	[simpleDict setValue:dict[@"distance"] forKey:@"distance"];
-	[simpleDict setValue:dict[@"city"] forKey:@"city"];
-	[simpleDict setValue:dict[@"country"] forKey:@"country"];
-	
-	
-	
-	return simpleDict;
-	
-}
 @end

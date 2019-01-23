@@ -12,10 +12,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GKResponse : NSObject
-@property (nonatomic, copy) NSArray<GKVenue *> *venues;
+@property (nonatomic, nullable, copy) NSArray<GKVenue *> *venues;
 
 + (instancetype)fromJSONDictionary:(NSDictionary *)dict;
-- (NSDictionary *)JSONDictionary;
 @end
 
 NS_ASSUME_NONNULL_END

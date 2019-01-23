@@ -11,15 +11,15 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GKLocation : NSObject
-@property (nonatomic, nullable, copy) NSString *address;
-@property (nonatomic, assign) double lat;
-@property (nonatomic, assign) double lng;
-@property (nonatomic, assign) NSInteger distance;
-@property (nonatomic, copy)   NSString *city;
-@property (nonatomic, copy)   NSString *country;
+@property (nonatomic, nullable, copy)   NSString *address;
+@property (nonatomic, nullable, strong) NSNumber *lat;
+@property (nonatomic, nullable, strong) NSNumber *lng;
+@property (nonatomic, nullable, strong) NSNumber *distance;
+@property (nonatomic, nullable, copy)   NSString *city;
+@property (nonatomic, nullable, copy)   NSString *country;
 
 + (instancetype)fromJSONDictionary:(NSDictionary *)dict;
-- (NSDictionary *)JSONDictionary;
+
 @end
 
 NS_ASSUME_NONNULL_END
