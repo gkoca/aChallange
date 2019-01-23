@@ -1,5 +1,5 @@
 //
-//  GKFSResponseRoot.h
+//  FSResponseRoot.h
 //  aChallenger
 //
 //  Created by Gökhan KOCA on 22.01.2019.
@@ -7,16 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GKResponse.h"
+#import "FSResponse.h"
 #import "Utils.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GKFSResponseRoot : NSObject
-@property (nonatomic, strong) GKResponse *response;
+@interface FSResponseRoot : NSObject
+@property (nonatomic, strong) FSResponse *response;
 
 + (_Nullable instancetype)fromJSON:(NSString *)json encoding:(NSStringEncoding)encoding error:(NSError *_Nullable *)error;
 + (_Nullable instancetype)fromData:(NSData *)data error:(NSError *_Nullable *)error;
++ (instancetype)fromJSONDictionary:(NSDictionary *)dict;
 
 @end
 

@@ -1,19 +1,19 @@
 //
-//  GKVenue.m
+//  Venue.m
 //  aChallenger
 //
 //  Created by Gökhan KOCA on 22.01.2019.
 //  Copyright © 2019 gkoca. All rights reserved.
 //
 
-#import "GKVenue.h"
+#import "Venue.h"
 #import "Utils.h"
 
-@implementation GKVenue
+@implementation Venue
 
 + (instancetype)fromJSONDictionary:(NSDictionary *)dict
 {
-	return dict ? [[GKVenue alloc] initWithJSONDictionary:dict] : nil;
+	return dict ? [[Venue alloc] initWithJSONDictionary:dict] : nil;
 }
 
 - (instancetype)initWithJSONDictionary:(NSDictionary *)dict

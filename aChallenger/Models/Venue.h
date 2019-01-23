@@ -1,5 +1,5 @@
 //
-//  GKVenue.h
+//  Venue.h
 //  aChallenger
 //
 //  Created by Gökhan KOCA on 22.01.2019.
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GKVenue : NSObject
+@interface Venue : NSObject
 @property (nonatomic, nullable, copy)   NSString *identifier;
 @property (nonatomic, nullable, copy)   NSString *name;
 @property (nonatomic, nullable, strong) GKLocation *location;

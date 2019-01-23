@@ -1,5 +1,5 @@
 //
-//  GKResponse.h
+//  FSResponse.h
 //  aChallenger
 //
 //  Created by Gökhan KOCA on 22.01.2019.
@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GKVenue.h"
+#import "Venue.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GKResponse : NSObject
-@property (nonatomic, nullable, copy) NSArray<GKVenue *> *venues;
+@interface FSResponse : NSObject
+@property (nonatomic, nullable, copy) NSArray<Venue *> *venues;
 
 + (instancetype)fromJSONDictionary:(NSDictionary *)dict;
 @end

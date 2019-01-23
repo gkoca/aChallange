@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>API_VERSION</key>
+	<string>20180323</string>
+	<key>CLIENT_SECRET</key>
+	<string>0L3S5BOMSEPGTCEZK2ZPVEJW3WINYDM4NT5TKE4FP2NVRAP4</string>
+	<key>CLIENT_ID</key>
+	<string>ARJQB4S0FPHCE44ZA5MHXVFMERLTFRPMLNU1KOYNX1ZMN2JK</string>
 </dict>
 </plist>
