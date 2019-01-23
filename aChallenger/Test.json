@@ -1,0 +1,384 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "5c474641351e3d773fd1d1eb"
+    },
+    "response": {
+        "venues": [
+            {
+                "id": "4c9e408846978cfabcc79f7f",
+                "name": "Vefakar Cafe",
+                "contact": {},
+                "location": {
+                    "address": "Süleymaniye",
+                    "crossStreet": "Cemal Yener Tosyalı Cad.",
+                    "lat": 41.01355151821715,
+                    "lng": 28.960518836975094,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 41.01355151821715,
+                            "lng": 28.960518836975094
+                        }
+                    ],
+                    "distance": 766,
+                    "postalCode": "34134",
+                    "cc": "TR",
+                    "neighborhood": "Kalenderhane Mah.",
+                    "city": "İstanbul",
+                    "state": "İstanbul",
+                    "country": "Türkiye",
+                    "formattedAddress": [
+                        "Süleymaniye (Cemal Yener Tosyalı Cad.)",
+                        "34134 İstanbul",
+                        "Türkiye"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d16d941735",
+                        "name": "Café",
+                        "pluralName": "Cafés",
+                        "shortName": "Café",
+                        "icon": {
+                            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "tipCount": 0,
+                    "usersCount": 0,
+                    "checkinsCount": 0,
+                    "visitsCount": 0
+                },
+                "beenHere": {
+                    "count": 0,
+                    "lastCheckinExpiredAt": 0,
+                    "marked": false,
+                    "unconfirmedCount": 0
+                },
+                "venuePage": {
+                    "id": "400829021"
+                },
+                "referralId": "v-1548174913",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "54b8a897498e43372c3f74fd",
+                "name": "Vefakar",
+                "contact": {},
+                "location": {
+                    "lat": 41.01463926267556,
+                    "lng": 28.960486176877993,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 41.01463926267556,
+                            "lng": 28.960486176877993
+                        }
+                    ],
+                    "distance": 765,
+                    "cc": "TR",
+                    "country": "Türkiye",
+                    "formattedAddress": [
+                        "Türkiye"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d16d941735",
+                        "name": "Café",
+                        "pluralName": "Cafés",
+                        "shortName": "Café",
+                        "icon": {
+                            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 0,
+                    "usersCount": 0,
+                    "checkinsCount": 0,
+                    "visitsCount": 0
+                },
+                "beenHere": {
+                    "count": 0,
+                    "lastCheckinExpiredAt": 0,
+                    "marked": false,
+                    "unconfirmedCount": 0
+                },
+                "referralId": "v-1548174913",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "56b056e2498e3b37ac95dbf7",
+                "name": "Vefakar Bistro Cafe",
+                "contact": {},
+                "location": {
+                    "address": "Cemalyener Tosyali Cad.No; 136 Süleymaniye",
+                    "crossStreet": "16 Mart Şehitleri Cad",
+                    "lat": 41.0134891513831,
+                    "lng": 28.960495075953393,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 41.0134891513831,
+                            "lng": 28.960495075953393
+                        }
+                    ],
+                    "distance": 764,
+                    "cc": "TR",
+                    "city": "İstanbul",
+                    "state": "İstanbul",
+                    "country": "Türkiye",
+                    "formattedAddress": [
+                        "Cemalyener Tosyali Cad.No; 136 Süleymaniye (16 Mart Şehitleri Cad)",
+                        "İstanbul",
+                        "Türkiye"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d16d941735",
+                        "name": "Café",
+                        "pluralName": "Cafés",
+                        "shortName": "Café",
+                        "icon": {
+                            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 0,
+                    "usersCount": 0,
+                    "checkinsCount": 0,
+                    "visitsCount": 0
+                },
+                "beenHere": {
+                    "count": 0,
+                    "lastCheckinExpiredAt": 0,
+                    "marked": false,
+                    "unconfirmedCount": 0
+                },
+                "referralId": "v-1548174913",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "5396aec8498edbdef8804be2",
+                "name": "vefakar",
+                "contact": {},
+                "location": {
+                    "lat": 41.0135046601472,
+                    "lng": 28.960287183257883,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 41.0135046601472,
+                            "lng": 28.960287183257883
+                        }
+                    ],
+                    "distance": 747,
+                    "cc": "TR",
+                    "country": "Türkiye",
+                    "formattedAddress": [
+                        "Türkiye"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d16d941735",
+                        "name": "Café",
+                        "pluralName": "Cafés",
+                        "shortName": "Café",
+                        "icon": {
+                            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 0,
+                    "usersCount": 0,
+                    "checkinsCount": 0,
+                    "visitsCount": 0
+                },
+                "beenHere": {
+                    "count": 0,
+                    "lastCheckinExpiredAt": 0,
+                    "marked": false,
+                    "unconfirmedCount": 0
+                },
+                "referralId": "v-1548174913",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "5728967d498eafe52a92490a",
+                "name": "Vefakar Playstation",
+                "contact": {},
+                "location": {
+                    "lat": 41.013477,
+                    "lng": 28.960625,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 41.013477,
+                            "lng": 28.960625
+                        }
+                    ],
+                    "distance": 775,
+                    "cc": "TR",
+                    "country": "Türkiye",
+                    "formattedAddress": [
+                        "Türkiye"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e1931735",
+                        "name": "Arcade",
+                        "pluralName": "Arcades",
+                        "shortName": "Arcade",
+                        "icon": {
+                            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/arcade_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 0,
+                    "usersCount": 0,
+                    "checkinsCount": 0,
+                    "visitsCount": 0
+                },
+                "beenHere": {
+                    "count": 0,
+                    "lastCheckinExpiredAt": 0,
+                    "marked": false,
+                    "unconfirmedCount": 0
+                },
+                "referralId": "v-1548174913",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "5529029e498e1c4b953c9b85",
+                "name": "Vefakar Playstation",
+                "contact": {},
+                "location": {
+                    "lat": 41.013466990288656,
+                    "lng": 28.96072496888434,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 41.013466990288656,
+                            "lng": 28.96072496888434
+                        }
+                    ],
+                    "distance": 784,
+                    "cc": "TR",
+                    "country": "Türkiye",
+                    "formattedAddress": [
+                        "Türkiye"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1f1931735",
+                        "name": "General Entertainment",
+                        "pluralName": "General Entertainment",
+                        "shortName": "Entertainment",
+                        "icon": {
+                            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/default_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 0,
+                    "usersCount": 0,
+                    "checkinsCount": 0,
+                    "visitsCount": 0
+                },
+                "beenHere": {
+                    "count": 0,
+                    "lastCheckinExpiredAt": 0,
+                    "marked": false,
+                    "unconfirmedCount": 0
+                },
+                "referralId": "v-1548174913",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "5527e190498e0306f15ee5a1",
+                "name": "Vefakar Playstation",
+                "contact": {},
+                "location": {
+                    "lat": 41.01999325865345,
+                    "lng": 28.95651194153791,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 41.01999325865345,
+                            "lng": 28.95651194153791
+                        }
+                    ],
+                    "distance": 795,
+                    "cc": "TR",
+                    "country": "Türkiye",
+                    "formattedAddress": [
+                        "Türkiye"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1f1931735",
+                        "name": "General Entertainment",
+                        "pluralName": "General Entertainment",
+                        "shortName": "Entertainment",
+                        "icon": {
+                            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/default_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 0,
+                    "usersCount": 0,
+                    "checkinsCount": 0,
+                    "visitsCount": 0
+                },
+                "beenHere": {
+                    "count": 0,
+                    "lastCheckinExpiredAt": 0,
+                    "marked": false,
+                    "unconfirmedCount": 0
+                },
+                "referralId": "v-1548174913",
+                "venueChains": [],
+                "hasPerk": false
+            }
+        ]
+    }
+}

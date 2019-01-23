@@ -1,0 +1,54 @@
+{
+    "response": {
+        "venues": [
+            {
+                "id": "49ee02e9f964a52010681fe3",
+                "name": "La Colombe Coffee Roasters",
+                "location": {
+                    "address": "270 Lafayette St",
+                    "lat": 40.72399,
+                    "lng": -73.996446,
+                    "distance": 453,
+                    "city": "New York",
+                    "country": "United States"
+                }
+            },
+            {
+                "id": "4f6b2599e4b0743010918ecd",
+                "name": "Peter & Jenny's Adorable Coffee Cart",
+                "location": {
+                    "address": "Houston & Broadway",
+                    "lat": 40.72522206126652,
+                    "lng": -73.99685117353619,
+                    "distance": 429,
+                    "city": "New York",
+                    "country": "United States"
+                }
+            },
+            {
+                "id": "4c9e408846978cfabcc79f7f",
+                "name": "Vefakar Cafe",
+                "location": {
+                    "address": "Süleymaniye",
+                    "lat": 41.01355151821715,
+                    "lng": 28.960518836975094,
+                    "distance": 766,
+                    "city": "İstanbul",
+                    "country": "Türkiye"
+                }
+            },
+            {
+                "id": "51eabf93498ecb557081554e",
+                "name": "Bintaş Market Sultanbeyli",
+                "location": {
+                    "address": "Süleymaniye",
+                    "lat": 40.93552913810379,
+                    "lng": 29.28256648555883,
+                    "distance": 152,
+                    "city": "İstanbul",
+                    "country": "Türkiye"
+                }
+            }
+        ]
+    }
+}
