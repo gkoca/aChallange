@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7633D84221F8762600EB9803 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7633D84121F8762600EB9803 /* NetworkManager.m */; };
 		E8072D6721F770040036C28C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8072D6621F770040036C28C /* AppDelegate.m */; };
 		E8072D6A21F770040036C28C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8072D6921F770040036C28C /* ViewController.m */; };
 		E8072D6D21F770040036C28C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8072D6B21F770040036C28C /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7633D84021F8762600EB9803 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		7633D84121F8762600EB9803 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		92FCE16AF1D26F66D167DAEE /* Pods-aChallenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aChallenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-aChallenger/Pods-aChallenger.release.xcconfig"; sourceTree = "<group>"; };
 		E2ABD226012E052AC014D7B8 /* libPods-aChallenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aChallenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E703E1588F393577B2C917B5 /* Pods-aChallenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aChallenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aChallenger/Pods-aChallenger.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 			children = (
 				E8072D8B21F7893D0036C28C /* Utils.h */,
 				E8072D8C21F7893D0036C28C /* Utils.m */,
+				7633D84021F8762600EB9803 /* NetworkManager.h */,
+				7633D84121F8762600EB9803 /* NetworkManager.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				E8072D7521F770050036C28C /* main.m in Sources */,
 				E8072D8621F785E40036C28C /* GKVenue.m in Sources */,
 				E8072D8021F784E90036C28C /* GKFSResponseRoot.m in Sources */,
+				7633D84221F8762600EB9803 /* NetworkManager.m in Sources */,
 				E8072D6721F770040036C28C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
