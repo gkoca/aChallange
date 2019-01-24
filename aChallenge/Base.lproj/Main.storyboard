@@ -83,7 +83,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <customObject id="nXq-co-ti1" customClass="MainPageViewModel" customModule="aChallenger"/>
+                <customObject id="nXq-co-ti1" customClass="MainPageViewModel"/>
             </objects>
             <point key="canvasLocation" x="-127.2" y="729.98500749625191"/>
         </scene>

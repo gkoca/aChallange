@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NetworkManager : NSObject
 
-+ (id)sharedManager;
++ (NetworkManager*)sharedManager;
 - (void)get:(NSString*)url
 	 params:(NSDictionary*)params
 	success:(void(^)(id data))success

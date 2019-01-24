@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LocationManager : NSObject
-
++ (LocationManager*)sharedManager;
 @end
 
 NS_ASSUME_NONNULL_END
