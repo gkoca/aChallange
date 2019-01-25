@@ -1,6 +1,6 @@
 //
 //  PlacesViewModel.h
-//  aChallenger
+//  aChallenge
 //
 //  Created by Gökhan KOCA on 23.01.2019.
 //  Copyright © 2019 gkoca. All rights reserved.

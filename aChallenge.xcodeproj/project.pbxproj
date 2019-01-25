@@ -18,8 +18,6 @@
 		E8072D8321F785C00036C28C /* FSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8072D8221F785C00036C28C /* FSResponse.m */; };
 		E8072D8621F785E40036C28C /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = E8072D8521F785E40036C28C /* Venue.m */; };
 		E8072D8921F7860D0036C28C /* VenueLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E8072D8821F7860D0036C28C /* VenueLocation.m */; };
-		E8072D9221F78E380036C28C /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = E8072D9121F78E380036C28C /* Test.json */; };
-		E8072D9421F790C30036C28C /* Test2.json in Resources */ = {isa = PBXBuildFile; fileRef = E8072D9321F790C30036C28C /* Test2.json */; };
 		E880BB6421F8DDEF00409FE5 /* ApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E880BB6321F8DDEF00409FE5 /* ApiClient.m */; };
 		E880BB6921F8F57800409FE5 /* MainPageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E880BB6821F8F57800409FE5 /* MainPageViewModel.m */; };
 		E880BB6C21F8FDFD00409FE5 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E880BB6B21F8FDFD00409FE5 /* LaunchViewController.m */; };
@@ -32,7 +30,6 @@
 		E8BE3F9621FA48710040C1DD /* VenueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE3F9521FA48710040C1DD /* VenueDetailViewController.m */; };
 		E8BE3F9821FA563D0040C1DD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BE3F9721FA563D0040C1DD /* MapKit.framework */; };
 		E8BE3F9B21FA63640040C1DD /* VenueDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE3F9A21FA63640040C1DD /* VenueDetailViewModel.m */; };
-		E92E77A7BD751B388857236C /* libPods-aChallenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2ABD226012E052AC014D7B8 /* libPods-aChallenger.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +37,7 @@
 		7633D84021F8762600EB9803 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		7633D84121F8762600EB9803 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		798BDC7AD73567F7241150F4 /* Pods-aChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aChallenge/Pods-aChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		92FCE16AF1D26F66D167DAEE /* Pods-aChallenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aChallenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-aChallenger/Pods-aChallenger.release.xcconfig"; sourceTree = "<group>"; };
 		BAA1AE4F4FCEDD1722604F78 /* libPods-aChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2ABD226012E052AC014D7B8 /* libPods-aChallenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aChallenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E703E1588F393577B2C917B5 /* Pods-aChallenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aChallenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aChallenger/Pods-aChallenger.debug.xcconfig"; sourceTree = "<group>"; };
 		E8072D6221F770040036C28C /* aChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8072D6521F770040036C28C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8072D6621F770040036C28C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,8 +55,6 @@
 		E8072D8521F785E40036C28C /* Venue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
 		E8072D8721F7860D0036C28C /* VenueLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenueLocation.h; sourceTree = "<group>"; };
 		E8072D8821F7860D0036C28C /* VenueLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenueLocation.m; sourceTree = "<group>"; };
-		E8072D9121F78E380036C28C /* Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Test.json; sourceTree = "<group>"; };
-		E8072D9321F790C30036C28C /* Test2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Test2.json; sourceTree = "<group>"; };
 		E880BB6221F8DDEF00409FE5 /* ApiClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiClient.h; sourceTree = "<group>"; };
 		E880BB6321F8DDEF00409FE5 /* ApiClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiClient.m; sourceTree = "<group>"; };
 		E880BB6721F8F57800409FE5 /* MainPageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageViewModel.h; sourceTree = "<group>"; };
@@ -94,7 +86,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8BE3F9821FA563D0040C1DD /* MapKit.framework in Frameworks */,
-				E92E77A7BD751B388857236C /* libPods-aChallenger.a in Frameworks */,
 				1AD2DE3FA37D12646A7E68B5 /* libPods-aChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,19 +96,50 @@
 		51A5223983D0DA5B0577227A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E703E1588F393577B2C917B5 /* Pods-aChallenger.debug.xcconfig */,
-				92FCE16AF1D26F66D167DAEE /* Pods-aChallenger.release.xcconfig */,
 				798BDC7AD73567F7241150F4 /* Pods-aChallenge.debug.xcconfig */,
 				57851B4E8B84919D44C43802 /* Pods-aChallenge.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		76CBE0CA21FAE8C900D5BA15 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E8072D6521F770040036C28C /* AppDelegate.h */,
+				E8072D6621F770040036C28C /* AppDelegate.m */,
+				E8072D7421F770050036C28C /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		76CBE0CB21FAE8F900D5BA15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8072D6E21F770050036C28C /* Assets.xcassets */,
+				E8072D7321F770050036C28C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		76CBE0CC21FAE93200D5BA15 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E880BB6A21F8FDFD00409FE5 /* LaunchViewController.h */,
+				E880BB6B21F8FDFD00409FE5 /* LaunchViewController.m */,
+				E8072D6821F770040036C28C /* MainPageViewController.h */,
+				E8072D6921F770040036C28C /* MainPageViewController.m */,
+				E880BB7021F90A1400409FE5 /* PlacesTableViewController.h */,
+				E880BB7121F90A1400409FE5 /* PlacesTableViewController.m */,
+				E8BE3F9421FA48710040C1DD /* VenueDetailViewController.h */,
+				E8BE3F9521FA48710040C1DD /* VenueDetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		7D75D1A923306FAE5FDE1CF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E8BE3F9721FA563D0040C1DD /* MapKit.framework */,
-				E2ABD226012E052AC014D7B8 /* libPods-aChallenger.a */,
 				BAA1AE4F4FCEDD1722604F78 /* libPods-aChallenge.a */,
 			);
 			name = Frameworks;
@@ -144,19 +166,13 @@
 		E8072D6421F770040036C28C /* aChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				E82BCDCA21F7ACDA003CDE3C /* Api */,
+				76CBE0CA21FAE8C900D5BA15 /* Application */,
+				E8072D7D21F784BA0036C28C /* Models */,
+				76CBE0CB21FAE8F900D5BA15 /* Resources */,
+				E8072D8A21F789170036C28C /* Utils */,
 				E82BCDCC21F7ACF6003CDE3C /* ViewModels */,
 				E82BCDCB21F7ACE9003CDE3C /* Views */,
-				E82BCDCA21F7ACDA003CDE3C /* Api */,
-				E8072D8A21F789170036C28C /* Utils */,
-				E8072D7D21F784BA0036C28C /* Models */,
-				E8072D6521F770040036C28C /* AppDelegate.h */,
-				E8072D6621F770040036C28C /* AppDelegate.m */,
-				E8072D6B21F770040036C28C /* Main.storyboard */,
-				E8072D6E21F770050036C28C /* Assets.xcassets */,
-				E8072D7321F770050036C28C /* Info.plist */,
-				E8072D7421F770050036C28C /* main.m */,
-				E8072D9121F78E380036C28C /* Test.json */,
-				E8072D9321F790C30036C28C /* Test2.json */,
 			);
 			path = aChallenge;
 			sourceTree = "<group>";
@@ -164,10 +180,10 @@
 		E8072D7D21F784BA0036C28C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E8072D7E21F784E90036C28C /* FSResponseRoot.h */,
-				E8072D7F21F784E90036C28C /* FSResponseRoot.m */,
 				E8072D8121F785C00036C28C /* FSResponse.h */,
 				E8072D8221F785C00036C28C /* FSResponse.m */,
+				E8072D7E21F784E90036C28C /* FSResponseRoot.h */,
+				E8072D7F21F784E90036C28C /* FSResponseRoot.m */,
 				E8072D8421F785E40036C28C /* Venue.h */,
 				E8072D8521F785E40036C28C /* Venue.m */,
 				E8072D8721F7860D0036C28C /* VenueLocation.h */,
@@ -179,14 +195,14 @@
 		E8072D8A21F789170036C28C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				7633D84021F8762600EB9803 /* NetworkManager.h */,
-				7633D84121F8762600EB9803 /* NetworkManager.m */,
+				E8BE3F8E21FA22510040C1DD /* Cache.h */,
+				E8BE3F8F21FA22510040C1DD /* Cache.m */,
 				E880BB6D21F8FED300409FE5 /* Dispatch.h */,
 				E880BB6E21F8FED300409FE5 /* Dispatch.m */,
 				E880BB7621F9106700409FE5 /* LocationManager.h */,
 				E880BB7721F9106700409FE5 /* LocationManager.m */,
-				E8BE3F8E21FA22510040C1DD /* Cache.h */,
-				E8BE3F8F21FA22510040C1DD /* Cache.m */,
+				7633D84021F8762600EB9803 /* NetworkManager.h */,
+				7633D84121F8762600EB9803 /* NetworkManager.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -203,16 +219,10 @@
 		E82BCDCB21F7ACE9003CDE3C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E8072D6821F770040036C28C /* MainPageViewController.h */,
-				E8072D6921F770040036C28C /* MainPageViewController.m */,
-				E880BB6A21F8FDFD00409FE5 /* LaunchViewController.h */,
-				E880BB6B21F8FDFD00409FE5 /* LaunchViewController.m */,
-				E880BB7021F90A1400409FE5 /* PlacesTableViewController.h */,
-				E880BB7121F90A1400409FE5 /* PlacesTableViewController.m */,
+				76CBE0CC21FAE93200D5BA15 /* Controllers */,
+				E8072D6B21F770040036C28C /* Main.storyboard */,
 				E8BE3F9121FA2DC30040C1DD /* VenueTableViewCell.h */,
 				E8BE3F9221FA2DC30040C1DD /* VenueTableViewCell.m */,
-				E8BE3F9421FA48710040C1DD /* VenueDetailViewController.h */,
-				E8BE3F9521FA48710040C1DD /* VenueDetailViewController.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,8 +298,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8072D9221F78E380036C28C /* Test.json in Resources */,
-				E8072D9421F790C30036C28C /* Test2.json in Resources */,
 				E8072D6F21F770050036C28C /* Assets.xcassets in Resources */,
 				E8072D6D21F770040036C28C /* Main.storyboard in Resources */,
 			);
@@ -482,7 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K35J6EG8VZ;
-				INFOPLIST_FILE = "$(SRCROOT)/aChallenge/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/aChallenge/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -501,7 +509,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K35J6EG8VZ;
-				INFOPLIST_FILE = "$(SRCROOT)/aChallenge/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/aChallenge/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

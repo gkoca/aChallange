@@ -1,6 +1,6 @@
 //
 //  NetworkManager.m
-//  aChallenger
+//  aChallenge
 //
 //  Created by Gökhan on 23.01.2019.
 //  Copyright © 2019 gkoca. All rights reserved.
