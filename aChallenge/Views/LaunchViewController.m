@@ -10,17 +10,13 @@
 #import "Dispatch.h"
 
 @interface LaunchViewController ()
-
 @end
 
 @implementation LaunchViewController
-
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+	[super viewDidLoad];
 }
-
 -(void)viewDidAppear:(BOOL)animated
 {
 	[super viewDidAppear:animated];
@@ -30,16 +26,9 @@
 		[strongSelf openMain];
 	} after:2];
 }
-
 - (void)openMain
 {
-//	MainPageNavigation
-	
-	NSLog(@"open main");
-	
 	UINavigationController * mainNavigation = [self.storyboard instantiateViewControllerWithIdentifier:@"MainPageNavigation"];
-	
 	[self presentViewController:mainNavigation animated:YES completion:nil];
 }
-
 @end

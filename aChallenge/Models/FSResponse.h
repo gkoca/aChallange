@@ -13,7 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FSResponse : NSObject
 @property (nonatomic, nullable, copy) NSArray<Venue *> *venues;
-
 + (instancetype)fromJSONDictionary:(NSDictionary *)dict;
 @end
 

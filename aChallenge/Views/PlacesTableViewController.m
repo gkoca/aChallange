@@ -8,95 +8,74 @@
 
 #import "PlacesTableViewController.h"
 #import "PlacesViewModel.h"
+#import "VenueTableViewCell.h"
+#import "VenueDetailViewController.h"
+#import "MZFormSheetPresentationViewController.h"
+#import "MBProgressHUD.h"
 
 @interface PlacesTableViewController ()
 @property (strong, nonatomic) IBOutlet PlacesViewModel *viewModel;
+@property (strong, nonatomic) VenueDetailViewController *venueDetail;
+@property (strong, nonatomic) MZFormSheetPresentationViewController *formSheetController;
 @end
 
 @implementation PlacesTableViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-
+-(void)viewWillAppear:(BOOL)animated
+{
+	[super viewWillAppear:animated];
+	[_viewModel load];
+	[self.tableView reloadData];
+}
 #pragma mark - Table view data source
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+	return [_viewModel numberOfVenues];
 }
-
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	return UITableViewAutomaticDimension;
 }
-
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	return UITableViewAutomaticDimension;
 }
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    VenueTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"venueCell" forIndexPath:indexPath];
+	cell.nameLabel.text = [_viewModel nameOf:indexPath.row];
+	cell.addressLabel.text = [_viewModel addressOf:indexPath.row];
+	cell.cityLabel.text = [_viewModel cityOf:indexPath.row];
+	cell.countryLabel.text = [_viewModel countryOf:indexPath.row];    
     return cell;
 }
-*/
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+	[_viewModel getVenueDetail:indexPath.row success:^{
+		[hud hideAnimated:YES];
+		[self createFormSheet];
+	} failure:^(NSError * _Nonnull error) {
+		NSLog(@"fail : %@",error.localizedDescription);
+		[hud hideAnimated:YES];
+	}];
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+- (void)createFormSheet
+{
+	_venueDetail = [self.storyboard instantiateViewControllerWithIdentifier:@"VenueDetailView"];
+	_formSheetController = [[MZFormSheetPresentationViewController alloc] initWithContentViewController:_venueDetail];
+	_formSheetController.contentViewCornerRadius = 12;
+	_formSheetController.contentViewControllerTransitionStyle = MZFormSheetPresentationTransitionStyleFade;
+	_formSheetController.presentationController.shouldDismissOnBackgroundViewTap = YES;
+	CGSize size = [UIScreen mainScreen].bounds.size;
+	float width = size.width - 64;
+	float height = size.height - 172;
+	_formSheetController.presentationController.contentViewSize = CGSizeMake(width, height);
+	[self presentViewController:_formSheetController animated:YES completion:nil];
 }
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

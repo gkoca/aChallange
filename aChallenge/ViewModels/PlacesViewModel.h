@@ -12,7 +12,17 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PlacesViewModel : NSObject
+
 @property(strong, nonatomic) NSArray<Venue *> *venues;
+- (void)load;
+- (NSInteger)numberOfVenues;
+- (NSString*)nameOf:(NSInteger)index;
+- (NSString*)addressOf:(NSInteger)index;
+- (NSString*)cityOf:(NSInteger)index;
+- (NSString*)countryOf:(NSInteger)index;
+- (void)getVenueDetail:(NSInteger)index
+			   success:(void(^)(void))success
+			   failure:(void(^)(NSError* error))failure;
 @end
 
 NS_ASSUME_NONNULL_END

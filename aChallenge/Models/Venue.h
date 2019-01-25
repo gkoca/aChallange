@@ -7,17 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GKLocation.h"
+#import "VenueLocation.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Venue : NSObject
 @property (nonatomic, nullable, copy)   NSString *identifier;
 @property (nonatomic, nullable, copy)   NSString *name;
-@property (nonatomic, nullable, strong) GKLocation *location;
-
+@property (nonatomic, nullable, copy)   NSString *tip;
+@property (nonatomic, nullable, copy)   NSString *imageUrl;
+@property (nonatomic, nullable, strong) VenueLocation *location;
 + (instancetype)fromJSONDictionary:(NSDictionary *)dict;
-
 @end
 
 NS_ASSUME_NONNULL_END

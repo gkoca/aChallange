@@ -8,16 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
-@class GKVenue;
+@class Venue;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ApiClient : NSObject
 + (void)searchVenues:(NSString*)query
 			  nearby:(NSString* _Nullable)nearby
-			 success:(void(^)(NSArray<GKVenue *> *venues))success
-			 failure:(void(^)(NSError* error))failure
-			complete:(void(^)(void))complete;
+			 success:(void(^)(NSArray<Venue *> *venues))success
+			 failure:(void(^)(NSError* error))failure;
++ (void)getVenueDetail:(NSString*)identifier
+			   success:(void(^)(Venue *venue))success
+			   failure:(void(^)(NSError* error))failure;
 @end
 
 NS_ASSUME_NONNULL_END

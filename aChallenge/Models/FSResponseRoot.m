@@ -7,7 +7,6 @@
 //
 
 #import "FSResponseRoot.h"
-#import "Utils.h"
 
 @interface FSResponseRoot (JSONConversion)
 
@@ -23,31 +22,24 @@ FSResponseRoot *_Nullable GKFSResponseRootFromData(NSData *data, NSError **error
 		return nil;
 	}
 }
-
 FSResponseRoot *_Nullable GKFSResponseRootFromJSON(NSString *json, NSStringEncoding encoding, NSError **error)
 {
 	return GKFSResponseRootFromData([json dataUsingEncoding:encoding], error);
 }
 
-
 @implementation FSResponseRoot
-
-
 + (_Nullable instancetype)fromData:(NSData *)data error:(NSError *_Nullable *)error
 {
 	return GKFSResponseRootFromData(data, error);
 }
-
 + (_Nullable instancetype)fromJSON:(NSString *)json encoding:(NSStringEncoding)encoding error:(NSError *_Nullable *)error
 {
 	return GKFSResponseRootFromJSON(json, encoding, error);
 }
-
 + (instancetype)fromJSONDictionary:(NSDictionary *)dict
 {
 	return dict ? [[FSResponseRoot alloc] initWithJSONDictionary:dict] : nil;
 }
-
 - (instancetype)initWithJSONDictionary:(NSDictionary *)dict
 {
 	if (self = [super init]) {
@@ -55,7 +47,6 @@ FSResponseRoot *_Nullable GKFSResponseRootFromJSON(NSString *json, NSStringEncod
 	}
 	return self;
 }
-
 @end
 
 
