@@ -45,6 +45,7 @@
 {
 	if ([_viewModel getImageUrl]) {
 		[_imageView setImageWithURL:[_viewModel getImageUrl]];
+		_imageViewHeightConstraint.constant = [UIScreen mainScreen].bounds.size.height / 4;
 	} else {
 		_imageViewHeightConstraint.constant = 0;
 	}
